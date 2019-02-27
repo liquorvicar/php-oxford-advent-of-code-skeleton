@@ -7,7 +7,7 @@ if (!file_exists($inputFilename)) {
     throw new Exception('Cannot find input file.');
 }
 
-$input = file_get_contents($inputFilename);
+$input = file($inputFilename);
 
 $answer = new PHPOxford\Answer();
 
