@@ -8,5 +8,10 @@
             "name": "Andy Clyde",
             "email": "a.clyde@elsevier.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHPOxford\\": ["src/", "test/"]
+        }
+    }
 }
