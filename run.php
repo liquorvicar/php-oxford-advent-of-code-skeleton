@@ -9,7 +9,9 @@ if (!file_exists($inputFilename)) {
 
 $input = file($inputFilename);
 
-$answer = new PHPOxford\Answer();
+$logger = new Monolog\Logger('PHPOxford Advent of Code challenge');
+
+$answer = new PHPOxford\Answer($logger);
 
 $options = getopt('p:');
 

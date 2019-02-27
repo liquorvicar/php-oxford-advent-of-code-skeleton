@@ -18,5 +18,8 @@
         "test": "vendor/bin/phpunit --testdox",
         "one": "php run.php -pone",
         "two": "php run.php -ptwo"
+    },
+    "require": {
+        "Monolog/Monolog": "^1.24"
     }
 }
